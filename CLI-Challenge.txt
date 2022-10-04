@@ -1,0 +1,20 @@
+To create a hidden Directory:
+mkdir .FilesToHide
+
+To create a hidden File:
+touch .hiddenfile.txt
+
+To list hidden file or Directory
+ls -a (only hidden ones)
+ls -al (all files including hidden ones)
+
+
+to create nested Directory:
+mkdir parent1/child1/parent2/child2
+
+if there is not a parent1 Directory:
+mkdir -p parent1/child1/parent2/child2
+
+
+To append a message to end of file:
+echo 'add this message to the end of this file'>>filename.txt
